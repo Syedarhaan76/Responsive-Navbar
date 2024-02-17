@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Menu with Search Box | Programmer's Planet</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#"><span>P</span>rogrammer's <span>P</span>lanet</a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <a href="#" class="desktop-link">Projects</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Projects</label>
+            <ul>
+              <li><a href="#">Personal Portfolio</a></li>
+              <li><a href="#">Navigation Bar</a></li>
+              <li><a href="#">Tour & Travels Website</a></li>
+              <li><a href="#">Car Parking System</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Skills</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Services</label>
+            <ul>
+              <li><a href="#">HTML</a></li>
+              <li><a href="#">CSS</a></li>
+              <li><a href="#">JAVASCRIPT</a></li>
+              <li>
+                <a href="#" class="desktop-link">MERN STACK</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">MERN STACK</label>
+                <ul>
+                  <li><a href="#">MONGO-DB</a></li>
+                  <li><a href="#">EXPRESS JS</a></li>
+                  <li><a href="#">REACT JS</a></li>
+                  <li><a href="#">NODE JS</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
+    </nav>
+  </div>
+  <main>
+
+  
+
+</body>
+</html>
