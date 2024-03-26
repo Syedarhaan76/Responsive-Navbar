@@ -15,3 +15,4 @@ styles.css: External stylesheet for styling the dropdown menu and search box.
 
 License
 This project is licensed under the MIT License.
+Author--Syed Arhaan Qadri
